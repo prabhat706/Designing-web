@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .container {
+            color: blue;
+            background-color: seagreen;
+            height: 4434px;
+        }
+
+        /* CSS POSITION: STATIC(DEFAULT),RELATIVE,ABSOLUTE,FIXED,STICKY */
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 100px;
+            height: 100px;
+            margin: 3.5px;
+        }
+
+        #box3
+        {
+            /* RELATIVE: RELATIVE TO ITS NORMAL POSITION agar hum log ko purani position mein gap chiye toh use krenge relative */
+            /* position: relative; */
+            /* position: absolute;
+            top: 45px;
+            left: 23px; */
+
+            /* position:fixed;
+            right: 4px; */
+
+
+            position: sticky;
+            top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+
+</body>
+
+</html>

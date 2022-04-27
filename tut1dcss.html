@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>peudo selectors and more designing</title>
+
+    <style>
+        .lowered {
+            border: 4px solid black;
+            background-color: burlywood;
+            margin: 66px;
+            padding: 666px auto;
+
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: darkred;
+        }
+        a:visited{
+            background-color: blue;
+        }
+
+        .btn {
+            border: 4px solid black;
+            background-color: chartreuse;
+            font-size: medium;
+            font-family: fantasy;
+            margin: 8px;
+            padding: 8px;
+            cursor: pointer;
+        }
+        .btn:hover{
+             color: black;
+             background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="cont1" class="lowered">
+        <h3>heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laboriosam.</p>
+        <a href="www.facebook.com" class="btn"> Read More</a>
+        <button class="btn"> contact us</button>
+        
+    </div>
+
+</body>
+
+</html>
